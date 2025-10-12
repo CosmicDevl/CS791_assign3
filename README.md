@@ -86,11 +86,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 pip install transformers
 ```
 
-#### Option 2: Pip Installation
-```bash
-pip install torch transformers
-```
-
 ### Environment Setup
 
 ```bash
