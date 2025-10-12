@@ -71,6 +71,22 @@ After getting model access, create an authentication token:
 
 ### Prerequisites
 
+#### Option 1: Conda Environment (Recommended)
+```bash
+# Create a new conda environment
+conda create -n cs791_a3 python=3.10
+
+# Activate the environment
+conda activate cs791_a3
+
+# Install PyTorch with CUDA support
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
+
+# Install additional dependencies
+pip install transformers
+```
+
+#### Option 2: Pip Installation
 ```bash
 pip install torch transformers
 ```
