@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"I wrote some stuff"
 """
 Task 0: Baseline Decoding Methods for Text Generation
 
